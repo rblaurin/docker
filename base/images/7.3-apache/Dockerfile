@@ -1,7 +1,7 @@
-FROM php:7.3-apache
-LABEL maintainer="PrestaShop Core Team <coreteam@prestashop.com>"
+FROM php:7.3.33-apache
+LABEL maintainer="JP Comercio Digital"
 
-ENV PS_DOMAIN="<to be defined>" \
+ENV PS_DOMAIN="https://www.25demarcoonline.com.br>" \
 DB_SERVER="<to be defined>" \
 DB_PORT=3306 \
 DB_NAME=prestashop \
